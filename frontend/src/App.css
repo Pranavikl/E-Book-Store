@@ -73,3 +73,38 @@
     padding: 0.4rem 0.8rem;
   }
 }
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.book-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 200px;
+}
